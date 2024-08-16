@@ -171,8 +171,3 @@ body {
     /* background-color: white; */
     z-index: 1000;
 }
-
-@keyframes fadeout {
-    from {opacity: 0;}
-    to {opacity: 1; visibility: hidden;}
-}

@@ -1,23 +1,24 @@
-<!-- FILEPATH: /c:/Users/Acer/OneDrive/Desktop/Secret_Shop/about.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clyde - Skills</title>
+    <title>Clyde Portfolio - Skills</title>
     <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <style>
+        /* General Styling */
         a {
             color: white;
         }
+
+        /* Container Sections */
         .sections {
             display: flex;
             flex-wrap: wrap;
         }
 
         .about {
-            flex-basis: 50%;
             height: 100vh;
             padding: 100px;
         }
@@ -28,14 +29,59 @@
             font-weight: 700;
         }
 
-        .picture {
-            flex-basis: 50%;
-            height: 100vh;
-            margin-top: 30px;
+        /* Project Boxes */
+        .box {
+            background-color: rgba(2, 32, 48, 0.7);
+            border: 2px solid rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
         }
 
-        .wppr {
-            border-radius: 50px;
+        .box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            border-color: rgb(5, 64, 80);
+        }
+
+        .proj-title p {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-align: center;
+            color: #ffffff;
+        }
+
+        .project-figure {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .project-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .box p {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #ffffff;
+        }
+
+        .box h1 {
+            font-size: 1.25rem;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: #ffffff;
+        }
+
+        .box li {
+            margin-left: 20px;
+            margin-bottom: 10px;
+            font-size: 1rem;
         }
     </style>
 </head>
@@ -58,8 +104,44 @@
     <div class="sections">
         <section class="about">
             <h1>Skills</h1> <br>
-        </section>
-        <section class="picture">
+            <div class="container">
+                <div class="columns" style="display: flex; flex-wrap: wrap;">
+                    <div class="column is-half" style="flex-basis: 50%; box-sizing: border-box; padding: 10px;">
+                        <div class="box project-text">
+                            <article>
+                                <div class="proj-title">
+                                    <p>AC-DC Machineries</p>
+                                </div>
+                                <div>
+                                    <figure class="image project-figure">
+                                        <img class="project-img" src="/gifs/GIF/Skill/AC-DC Machineries.gif" alt="Project 1 Image">
+                                    </figure>
+                                </div>
+                                <div>			
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa facilis optio recusandae molestias dolores. Libero qui earum quidem, eum pariatur nihil in, voluptate ut, similique architecto repellat voluptatem animi ipsum.
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="column is-half" style="flex-basis: 50%; box-sizing: border-box; padding: 10px;">
+                        <div class="box project-text">
+                            <article>
+                                <div class="proj-title">
+                                    <p>Technical Skills</p>
+                                </div>
+                                <div>
+                                    <figure class="image project-figure">
+                                        <img class="project-img" src="/gifs/GIF/Skill/Technical Skills.gif" alt="Project 1 Image">
+                                    </figure>
+                                </div>
+                                <div>			
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa facilis optio recusandae molestias dolores. Libero qui earum quidem, eum pariatur nihil in, voluptate ut, similique architecto repellat voluptatem animi ipsum.
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </div>
 </body>

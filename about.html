@@ -6,7 +6,23 @@
     <title>Clyde Portfolio - About</title>
     <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-bold-rounded/css/uicons-bold-rounded.css'>
 </head>
+<style>
+  .picture {
+    margin-left: 200px;
+    margin-right: 10vh;
+    border-radius: 30px;
+    height: 500px;
+    width: 500px;
+    border: 1px solid #fff;
+    border-radius: 40px; 
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5), 
+                0 0 30px rgba(255, 255, 255, 0.5), 
+                0 0 45px rgba(255, 255, 255, 0.5), 
+                0 0 60px rgba(255, 255, 255, 0.5); 
+}     
+</style>
 <body class="fade" id="fade">
     <header class="header">
         <div class="">
@@ -23,17 +39,74 @@
         </nav>
     </header>
 
-    <section class="home">
-        <div class="home-content">
-            <h1>Hi, I'm John Clyde Kaindoy</h1> <br>
-            <h3>Mechanical Engineering Student</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores iste laboriosam eveniet eum! Maxime exercitationem perspiciatis sint, impedit ea vitae quibusdam, id dolorem cumque, deleniti qui iste veniam suscipit quae!</p>
-            <div class="btn-box">
-                <a href="project.html">My Projects</a>
-            </div>
-        </div>
-        <img src="img/favicon.jpg" alt="" class="wallpaper">
-    </section>
+
+    <div>
+      <section class="about">
+          <h1>About</h1> <br>
+          <div class="container">
+              <div class="columns" style="display: flex; flex-wrap: wrap;">
+                  <div class="column is-half" style="flex-basis: 50%; box-sizing: border-box; padding: 10px;">
+                      <div class="box project-text">
+                          <article>
+                              <div class="proj-title">
+                                  <p>Personal Information</p>
+                              </div>
+                              <div>			
+                                <ul>
+                                    <div style="display: flex; margin-top: 10px;">
+                                      <i class="fi fi-br-id-card-clip-alt"></i>
+                                      <p style="margin-left: 20px; font-size: large;">John Clyde Kaindoy</p>
+                                    </div>
+                                    <div style="display: flex; margin-top: 10px;">
+                                      <i class="fi fi-br-envelope"></i>
+                                      <p style="margin-left: 20px; font-size: large;">johnclydek@gmail.com</p>
+                                    </div>
+                                    <div style="display: flex; margin-top: 10px;">
+                                      <i class="fi fi-br-phone-call"></i>
+                                      <p style="margin-left: 20px; font-size: large;">09615389271</p>
+                                    </div>
+                                    <div style="display: flex; margin-top: 10px;">
+                                      <i class="fi fi-br-region-pin-alt"></i>
+                                      <p style="margin-left: 20px; font-size: large;">Sitio Maria Socorro, Saint Bernard, Southern Leyte, 6616</p>
+                                    </div>
+                                    <div style="display: flex; margin-top: 10px;">
+                                      <i class="fi fi-br-school"></i>
+                                      <p style="margin-left: 20px; font-size: large;">Visayas State University-Main Campus</p>
+                                    </div>
+                                    <div style="display: flex; margin-top: 10px;">
+                                      <i class="fi fi-br-e-learning"></i>
+                                      <p style="margin-left: 20px; font-size: large;">Mechanical Engineering Student</p>
+                                    </div>
+                                </ul>
+                              </div>
+                              <div class="proj-title" style="margin-top: 30px;">
+                                <p>Educational Background</p>
+                            </div>
+
+                            <div>
+                              <ul>
+                                <div style="display: flex; margin-top: 10px;">
+                                  <i class="fi fi-br-graduation-cap"></i>
+                                  <p style="margin-left: 20px; font-size: large;">Elementary - Saint Bernard Central School</p>
+                                </div>
+                                <div style="display: flex; margin-top: 10px;">
+                                  <i class="fi fi-br-graduation-cap"></i>
+                                  <p style="margin-left: 20px; font-size: large;">High School - Cristo Rey Regional High School</p>
+                                </div>
+                                <div style="display: flex; margin-top: 10px;">
+                                  <i class="fi fi-br-graduation-cap"></i>
+                                  <p style="margin-left: 20px; font-size: large;">Senior High School - STEM - Saint Joseph College</p>
+                                </div>
+                              </ul>
+                            </div>
+                            
+                          </article>
+                      </div>
+                  </div>
+                  <img src="img/favicon.jpg" alt="" class="picture">
+              </div>
+          </div>
+      </section>
 </body>
 
 </html>
